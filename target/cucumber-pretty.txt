@@ -1,0 +1,9 @@
+
+@tag @tag2
+Scenario: Validate Forgot Password functionality              # Features/ForgotPassword.feature:13
+  Given The home page is loaded                               # com.steps.RedirectionTest.the_home_page_is_loaded()
+  When the user clicks on Header menu                         # com.steps.RedirectionTest.the_user_clicks_on_header_menu()
+  And selects Sign In                                         # com.steps.RedirectionTest.selects_sign_in()
+  When the user clicks on Forgot Password                     # com.steps.RedirectionTest.the_user_clicks_on_forgot_password()
+  When the user enters EmailId and clicks on Recover Password # com.steps.RedirectionTest.the_user_enters_email_id_and_clicks_on_recover_password()
+  Then password reset link is sent to email                   # com.steps.RedirectionTest.password_reset_link_is_sent_to_email()

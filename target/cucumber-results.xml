@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="99.963">
+<testcase classname="Forgot password" name="Validate Forgot Password functionality" time="99.665">
+<system-out><![CDATA[Given The home page is loaded...............................................passed
+When the user clicks on Header menu.........................................passed
+And selects Sign In.........................................................passed
+When the user clicks on Forgot Password.....................................passed
+When the user enters EmailId and clicks on Recover Password.................passed
+Then password reset link is sent to email...................................passed
+]]></system-out>
+</testcase>
+</testsuite>
